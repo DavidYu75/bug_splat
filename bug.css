@@ -1,0 +1,117 @@
+body {
+    background-image: url("images/floor.jpg");
+}
+
+img {
+    width: 100px;
+    height: auto;
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+    color: wheat;
+}
+
+h3 {
+    text-align: center;
+    color: wheat;
+}
+
+h3.commentbox {
+    text-align: center;
+    position: relative;
+    top: 425px;
+    color: wheat;
+}
+
+hr.commentline {
+    position: relative;
+    top: 425px;
+}
+
+#rat1 {
+    left: 600px;
+    top: 150px;
+}
+
+#rat2 {
+    left: 750px;
+    top: 150px;
+}
+
+#rat3 {
+    left: 900px;
+    top: 150px;
+}
+
+#rat4 {
+    left: 1050px;
+    top: 150px;
+}
+
+#rat5 {
+    left: 1200px;
+    top: 150px;
+}
+
+#rat6 {
+    left: 600px;
+    top: 300px;
+}
+
+#rat7 {
+    left: 750px;
+    top: 300px;
+}
+
+#rat8 {
+    left: 900px;
+    top: 300px;
+}
+
+#rat9 {
+    left: 1050px;
+    top: 300px;
+}
+
+#rat10 {
+    left: 1200px;
+    top: 300px;
+}
+
+#rat11 {
+    left: 600px;
+    top: 450px;
+}
+
+#rat12 {
+    left: 750px;
+    top: 450px;
+}
+
+#rat13 {
+    left: 900px;
+    top: 450px;
+}
+
+#rat14 {
+    left: 1050px;
+    top: 450px;
+}
+
+#rat15 {
+    left: 1200px;
+    top: 450px;
+}
+
+#messagearea {
+    top: 600px;
+}
+
+div {
+    text-align: center;
+    top: 425px;
+    position: relative;
+    color: wheat;
+}
