@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Bug Splat</title>
-        <link rel = "stylesheet" href = "bug.css" />
-        <style></style>
-        <script src = "bug_splat.js"></script>
-        <script>
-        </script>
-    </head>
 
-    <body onload="initialize()">
-        <h1>Bug Splat</h1>
-        <h3>You have been invaded. You have no choice but to start splatting. Go!</h3>
+<head>
+    <title>Bug Splat</title>
+    <link rel="stylesheet" href="bug.css" />
+    <style></style>
+    <script src="bug_splat.js"></script>
+    <script>
+    </script>
+</head>
 
-        <hr />
+<body onload="initialize()">
+    <h1>Bug Splat</h1>
+    <h3 class="title">
+        <span>David Yu</span>
+        <span>You have been invaded. You have no choice but to start splatting. Go!</span>
+        <span>Web Development</span>
+    </h3>
 
+    <hr />
+
+    <span class="bugs">
         <img id="rat1" src="images/rattata.png" onmousedown="splat(id);">
         <img id="rat2" src="images/rattata.png" onmousedown="splat(id);">
         <img id="rat3" src="images/rattata.png" onmousedown="splat(id);">
@@ -30,12 +36,18 @@
         <img id="rat13" src="images/rattata.png" onmousedown="splat(id);">
         <img id="rat14" src="images/rattata.png" onmousedown="splat(id);">
         <img id="rat15" src="images/rattata.png" onmousedown="splat(id);">
+    </span>
 
-        <hr class="commentline" />
+    <hr class="commentline" />
 
-        <h3 class="commentbox"><span id="comment"></span></h3>
+    <h3 class="commentbox"><span id="comment"></span></h3>
 
-        <div><button id="resetbutton">Reset</button></div>
-        
-    </body>
+    <div><button id="resetbutton">Reset</button></div>
+
+    <video width="500" height="300" autoplay muted loop controls>
+        <source src="images/bugSplat.mp4" type="video/mp4">
+    </video>
+
+</body>
+
 </html>
